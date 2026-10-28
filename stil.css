@@ -1,0 +1,17 @@
+:root { --zemin: #fbfaf7; --metin: #1f2328; --soluk: #5b6169; --vurgu: #0f6e5c; --cizgi: #e3e0d8; }
+@media (prefers-color-scheme: dark) {
+  :root { --zemin: #16181b; --metin: #e8e6e1; --soluk: #a3a8ae; --vurgu: #5cc4ad; --cizgi: #2c3036; }
+}
+* { box-sizing: border-box; }
+body { margin: 0; background: var(--zemin); color: var(--metin); font: 17px/1.65 system-ui, -apple-system, "Segoe UI", Roboto, sans-serif; }
+main { max-width: 720px; margin: 0 auto; padding: 40px 16px 64px; }
+header { border-bottom: 1px solid var(--cizgi); padding-bottom: 16px; margin-bottom: 28px; }
+header a.ad { font-weight: 700; font-size: 20px; color: var(--metin); text-decoration: none; }
+nav { margin-top: 6px; font-size: 15px; }
+nav a { margin-right: 14px; }
+a { color: var(--vurgu); }
+h1 { font-size: 30px; line-height: 1.25; margin: 0 0 8px; }
+h2 { font-size: 20px; margin: 32px 0 8px; }
+.tarih, footer { color: var(--soluk); font-size: 14px; }
+footer { border-top: 1px solid var(--cizgi); margin-top: 48px; padding-top: 16px; }
+.en { border-top: 1px dashed var(--cizgi); margin-top: 40px; padding-top: 8px; }
